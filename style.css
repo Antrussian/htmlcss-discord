@@ -137,6 +137,7 @@ h1 {
 }
 
 .text {
+    display: flex;
     font-size: 20px;
     padding: 30px 100px 30px 100px;
     text-align: center;
@@ -180,6 +181,15 @@ height: 100%;
     
 }
 
+.text-black {
+    color: black;
+    margin: 10px 5px 10px 5px;}
+
+.text-line-height {
+    line-height: 25px;
+}
+
+
 .text-button {
     font-size: 1rem;
 }
@@ -193,9 +203,40 @@ align-items: center;
     
 }
 
+.box-info {
+      display: flex;
+    width: 25%;
+
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 10px 30px 10px 10px;
+   
+
+}
+
+.box-flex-topic {
+        display: flex;
+        background-image: url(./img/item1.svg);
+        width: 30%;
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 10px 30px 10px 10px;
+       
+    }
+
+.friend {
+     background-image: url(./img/item2.svg);
+}
+
+.fandom {
+    background-image: url(./img/item3.svg);
+}
 
 .section-middle {
     height: 400px;
+    margin-top: 10%;
+    margin-bottom: 5%;
 }
 
 .section-big {
@@ -215,11 +256,7 @@ align-items: center;
     background-color: rgb(40, 40, 40);
 }
 
-.box-flex {
-    display: flex;
-    height: 300px;
-    
-}
+
 
 .background-hero {
     background-image: url(./img/jumbo.png);
@@ -263,11 +300,16 @@ align-items: center;
     
  .box-flex-2 {
         display: flex;
-        background-color: rgb(23, 82, 243);
-        width: 40%;
-        height: 300px;
-        border: 2px dashed;
+        background-image: url(./img/item1.svg);
+        width: 60%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        
     }
+
+
+
 
 .box-flex-3 {
         display: flex;
