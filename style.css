@@ -153,6 +153,7 @@ width: 100%;
 height: 100%;
 }
 
+
 .section-button {
     display: flex;
     flex-direction: row;
@@ -203,10 +204,16 @@ align-items: center;
     
 }
 
+
+
+
+
+
+
+
 .box-info {
       display: flex;
     width: 25%;
-
     flex-direction: column;
     align-items: flex-end;
     margin: 10px 30px 10px 10px;
@@ -234,15 +241,22 @@ align-items: center;
 }
 
 .section-middle {
+    display: flex;
     height: 400px;
     margin-top: 10%;
     margin-bottom: 5%;
 }
 
 .section-big {
+    display: flex;
     height: 600px;
+
 }
 
+.section-info {
+    display: flex;
+    width: 100%;
+}
 
 .background-blue {
     background-color: #3D6BED;;
